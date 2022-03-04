@@ -140,13 +140,6 @@ If an issue reported for one of our exchanges (e.g. hoosmartchain.com) affects a
 
 **HSC resources**
 
-*Windows* : [Here](https://ftp.hoosmartchain.com/electron-desktop/windows/production/hoosmartchain-setup.exe)
-
-*macOS* : [Here](https://ftp.hoosmartchain.com/electron-desktop/mac/production/hoosmartchain.dmg)
-
-*iOS* : [Here](https://apps.apple.com/us/app/hoosmartchain/id1436799971?l=en)
-
-*Android* : [Here](https://play.google.com/store/apps/details?id=com.hoosmartchain.dev&hl=en)
 
 *API Documentation* : [Here](https://github.com/hoosmartchain-exchange/hoosmartchain-official-api-docs)
 
@@ -154,7 +147,7 @@ If an issue reported for one of our exchanges (e.g. hoosmartchain.com) affects a
 
 *HSC Chain Documentation* : [Here](https://hoosmartchain-chain.github.io/)
 
-*HSC Chain Wallet - Chrome extension*: [Here](https://chrome.google.com/webstore/detail/hoosmartchain-chain-wallet/fhbohimaelbohpjbbldcngcnapndodjp)
+*HSC Chain Wallet - Chrome extension*: [Here](https://chrome.google.com/webstore/detail/hoosmartchain-chain-wallet/)
 
 *HSC Chain Wallet - Firefox extension*: [Here](https://addons.mozilla.org/en-US/firefox/addon/hoosmartchain-chain/)
 
@@ -274,7 +267,7 @@ Vulnerabilities that could undermine the fund safety of any user or business run
 
 [Trustwallet Android app](https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp)
 
-[Trustwallet iOS app](https://apps.apple.com/app/trust-ethereum-wallet/id1288339409)
+[Trustwallet iOS app](https://apps.apple.com/app/trust-ethereum-wallet/)
 
 [Trustwallet walletcore](https://github.com/trustwallet/wallet-core/)
 

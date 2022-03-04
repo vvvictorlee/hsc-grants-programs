@@ -49,13 +49,13 @@ Inspired by [awesome-python](https://github.com/vinta/awesome-python/).
 
 * [Beptools](https://beptools.org/) - an open-source tool for multisend and freeze tokens
 * [Hoo Chain subgraph](https://github.com/proxima-one/hoo-chain-subgraph) - Proxima releases client for faster data queries
-* [BNBEscrow](https://gitlab.com/canyacoin/canwork/bepescrow) - A stateless escrow service for BEP2 assets on Hoo Chain.
-* [smartBNB](https://github.com/safudex/smartbnb): A cross-chain bridge between NEO and Hoo Chain that enables smart contracts for BEP2 assets
-* [Minstscan - Hoo Chain Explorer](https://hoo.mintscan.io/) - A fast explorer for the Hoo Chain
+* [HOOEscrow](https://gitlab.com/canyacoin/canwork/bepescrow) - A stateless escrow service for BEP2 assets on Hoo Chain.
+* [smartHOO](https://github.com/safudex/smartHOO): A cross-chain bridge between Heco and Hoo Chain that enables smart contracts for OIP assets
+* [hooscan - Hoo Chain Explorer](https://www.hooscan.com/) - A fast explorer for the Hoo Chain
 
 ### Analytics
 
-* [DuneAnalytics](https://explore.duneanalytics.com/public/dashboards/orYVVlec8ZaUrLr9yfDW0eyAZKMYt06Uab7qDPlx) - Hoo Chain data analytics platform
+* [DuneAnalytics](https://explore.duneanalytics.com/public/dashboards/) - Hoo Chain data analytics platform
 * [Bloxy](https://stat.bloxy.info/superset/dashboard/hoo/?standalone=true) - One stand data source for understanding Hoo DEX
 * [Bitquery](https://explorer.bitquery.io/hoo) - GraphQL explorer of Hoo Chain data
 

@@ -24,7 +24,7 @@ Feel free to submit a pull request, with anything from small fixes to tools you'
       - [IDEs](#ides)
     - [Other tools](#other-tools)
     - [Test blockchain networks](#test-blockchain-networks)
-      - [Test BNB&BEP20 faucets](#test-bnbbep20-faucets)
+      - [Test HOO&BEP20 faucets](#test-HOObep20-faucets)
     - [Communicating with HSC](#communicating-with-hsc)
       - [Frontend HSC APIs](#frontend-hsc-apis)
       - [Backend HSC APIs](#backend-hsc-apis)
@@ -95,7 +95,7 @@ Hoo Smart Chain Config:
 |[Ganache](https://github.com/trufflesuite/ganache)| App for test HSC blockchain with visual UI and logs, except for some precompile contract, the rest is same|:white_check_mark:|
 |[Local HSC Network](https://github.com/ConsenSys/local_ethereum_network)| User can simply set up a hsc network using clique consensus|:white_check_mark:|
 
-#### Test BNB&BEP20 faucets
+#### Test HOO&BEP20 faucets
 
 | Name  | Description  | Support |
 |  ---  |---|---|
