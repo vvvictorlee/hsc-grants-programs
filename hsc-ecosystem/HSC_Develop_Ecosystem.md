@@ -57,7 +57,7 @@ Hoo Smart Chain Config:
 - ChainId. Mainnet(70), Testnet(170).
 - RPC Endpoints. Mainnet(https://http-mainnet.hoosmartchain.com), Testnet(https://http-testnet.hoosmartchain.com). [More Endpoints](https://github.com/hoosmartchain/hsc-enode-rpcnode-list)
 - [Explorer](https://hooscan.com/)
-- [Faucet](https://testnet.hoosmartchain.org/faucet-smart).
+- [Faucet](https://hscscan.com/hydrant).
 
 ### Developing Smart Contracts
 #### Smart Contract Languages
@@ -102,7 +102,7 @@ Hoo Smart Chain Config:
 
 | Name  | Description  | Support |
 |  ---  |---|---|
-|[HSC faucet](https://testnet.hoosmartchain.org/faucet-smart)| HSC testnet faucet, support ORC20 as well |:white_check_mark:|
+|[HSC faucet](https://hscscan.com/hydrant)| HSC testnet faucet, support ORC20 as well |:white_check_mark:|
 
 
 ### Communicating with HSC
