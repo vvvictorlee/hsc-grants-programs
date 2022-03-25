@@ -24,7 +24,7 @@ Feel free to submit a pull request, with anything from small fixes to tools you'
       - [IDEs](#ides)
     - [Other tools](#other-tools)
     - [Test blockchain networks](#test-blockchain-networks)
-      - [Test HOO&BEP20 faucets](#test-HOObep20-faucets)
+      - [Test HOO&ORC20 faucets](#test-hooorc20-faucets)
     - [Communicating with HSC](#communicating-with-hsc)
       - [Frontend HSC APIs](#frontend-hsc-apis)
       - [Backend HSC APIs](#backend-hsc-apis)
@@ -41,6 +41,9 @@ Feel free to submit a pull request, with anything from small fixes to tools you'
       - [Popular Smart Contract Libraries](#popular-smart-contract-libraries)
       - [Prebuilt UI Components](#prebuilt-ui-components)
       - [Dapp Tools](#dapp-tools)
+      - [Gnosis Safe On HSC](#gnosis-safe-on-hsc)
+      - [GraphNode On HSC](#graphnode-on-hsc)
+      - [snapshot On HSC](#snapshot-on-hsc)
 
 ## Developer Tools
 
@@ -51,8 +54,8 @@ We separate the support of tools/infra into:
 
 Hoo Smart Chain Config:
 
-- ChainId. Mainnet(56), Testnet(97).
-- RPC Endpoints. Mainnet(https://hsc-dataseed.hoosmartchain.org/), Testnet(https://data-seed-prehsc-1-s1.hoosmartchain.org:8545/). [More Endpoints](https://docs.hoosmartchain.org/smart-chain/developer/rpc.html)
+- ChainId. Mainnet(70), Testnet(170).
+- RPC Endpoints. Mainnet(https://http-mainnet.hoosmartchain.com), Testnet(https://http-testnet.hoosmartchain.com). [More Endpoints](https://github.com/hoosmartchain/hsc-enode-rpcnode-list)
 - [Explorer](https://hooscan.com/)
 - [Faucet](https://testnet.hoosmartchain.org/faucet-smart).
 
@@ -91,15 +94,15 @@ Hoo Smart Chain Config:
 ### Test blockchain networks
 | Name  | Description  | Support |
 |  ---  |---|---|
-|[hscnode](https://docs.hoosmartchain.org/smart-chain/developer/fullnode.html) | Run an HSC node for development |:white_check_mark:|
+|[hscnode](https://github.com/hoosmartchain/hsc-documentations) | Run an HSC node for development |:white_check_mark:|
 |[Ganache](https://github.com/trufflesuite/ganache)| App for test HSC blockchain with visual UI and logs, except for some precompile contract, the rest is same|:white_check_mark:|
-|[Local HSC Network](https://github.com/ConsenSys/local_ethereum_network)| User can simply set up a hsc network using clique consensus|:white_check_mark:|
+|[Local HSC Network](https://github.com/hoosmartchain/hsc-documentations)| User can simply set up a hsc network using posa consensus|:white_check_mark:|
 
-#### Test HOO&BEP20 faucets
+#### Test HOO&ORC20 faucets
 
 | Name  | Description  | Support |
 |  ---  |---|---|
-|[HSC faucet](https://testnet.hoosmartchain.org/faucet-smart)| HSC testnet faucet, support BEP20 as well |:white_check_mark:|
+|[HSC faucet](https://testnet.hoosmartchain.org/faucet-smart)| HSC testnet faucet, support ORC20 as well |:white_check_mark:|
 
 
 ### Communicating with HSC
@@ -309,3 +312,30 @@ Hoo Smart Chain Config:
 | Name  | Description  | Support |
 |  ---  |------------- | -----------------------------|
 |[approve.sh](https://dappcn.mathwallet.xyz/approve.sh/)|manage approval of account| :white_check_mark: |
+
+
+#### Gnosis Safe On HSC
+
+| Name  | Description  | Support |
+|  ---  |------------- | -----------------------------|
+|[Gnosis Safe On HSC](https://gnosis-safe.hoosmartchain.com/#/welcome)|Smart contract-based multisig wallet | :white_check_mark: |
+|[Gnosis Safe Help Docs](https://help.gnosis-safe.io/en/articles/3738081-contract-interactions)|Smart contract-based multisig wallet - DeFi Prime| :white_check_mark: |
+
+#### GraphNode On HSC
+
+| Name  | Description  | Support |
+|  ---  |------------- | -----------------------------|
+|[GraphNode Help Docs](https://thegraph.com/docs/developer/quick-start)|an open source Rust implementation that event sources the Ethereum blockchain to deterministically update a data store that can be queried via the GraphQL endpoint.| :white_check_mark: |
+|[deploy](https://graphapi.hoosmartchain.com/deploy/ )|deploy subgraph on hsc| :white_check_mark: |
+|[ipfs](https://graphapi.hoosmartchain.com/ipfs/ )|ipfs node on hsc| :white_check_mark: |
+|[playground](https://graphapi.hoosmartchain.com/index/graphql/playground)|playground on hsc| :white_check_mark: |
+|[subgraph example on HSC ](https://github.com/vvvictorlee/nft-subgraph/blob/dev/package.json)|subgraph example on HSC| :white_check_mark: |
+
+
+#### snapshot On HSC
+
+| Name  | Description  | Support |
+|  ---  |------------- | -----------------------------|
+|[snapshot On Hoo Smart Chain Mainnet](https://snapshot.org/#/?network=70)|a voting tool based on the IPFS decentralized storage system, used by many crypto projects to poll their user bases.| :white_check_mark: |
+|[snapshot Help Docs](https://docs.snapshot.org/)|snapshot docs| :white_check_mark: |
+
